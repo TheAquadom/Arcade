@@ -2,26 +2,26 @@ CODE TEMPLATE:
 //This is a single line comment (notes that won't be read as instructions to the computer).
 //Different syntax is used for comments depending on the language.
 
-//CHANGE ME: Add the title of your game
-//CHANGE ME: Add your name
+//Game: Fire Emblem
+//Irwin Gutierrez
 
 
-if (CHANGE ME: condition # 1) {
-    //Add event below
+if (player gets into enemy range) {
+    enemy moves and attacks player;
 } else {
-    //Add event below
+    enemy doesn't move;
 }
 
-if (CHANGE ME: condition # 2) {
-    //Add event below
+if (enemyHP = 0) {
+    enemy dies and player gains EXP;
 } else {
-    //Add event below
+    enemyHP = playerAttack - enemyDefense if this does not equal 0;
 }
 
-if (CHANGE ME: condition # 3) {
-    //Add event below
+if (playerEXP = 100) {
+    level up player and gain stats;
 } else {
-    //Add event below
+    player doesnt level up;
 }
 
 
